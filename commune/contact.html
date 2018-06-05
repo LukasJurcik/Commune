@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/index.js"></script>
+    <title>Contact Køge Commune</title>
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <meta name="description" content="If you have any question here you can contact Køge Commune.">
+</head>
+
+<body>
+    <section class="header header--contact"> 
+        <nav class="navigation"> <!--Navigation-->
+            <div class="navigation__logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Køge Municipality Logo" class="navigation__img">
+                    <h1 class="navigation__name">Køge
+                        <br> Commune
+                    </h1>
+                </a>
+            </div>
+            <div class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">About Municipality</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav__item">
+                        <div class="nav__call">
+                            <svg class="nav__icon">
+                                <use xlink:href="img/sprite.svg#phone-call">
+                            </svg>
+                            <span class="nav__number">56 67 67 67</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="responsive-nav"> <!--Responsive Navigation-->
+            <div class="responsive__logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Køge Municipality Logo" class="responsive__img">
+                    <h1 class="responsive__name">Køge
+                        <br> Commune
+                    </h1>
+                </a>
+            </div>
+            <span class="responsive-nav__menu">&#9776;</span>
+        </div>
+    </section>
+    <section class="contact"> <!--Contact Section-->
+            <div class="cnt">
+                <div class="contact-form"> <!--Contact Form With Inputs-->
+                    <form action="https://formspree.io/lukas.jurcik1998@gmail.com" method="POST"  class="form">
+                        <input class="form__name" type="text" name="Full Name" placeholder="Full Name">
+                        <input class="form__email" type="email" name="E-mail" placeholder="E-mail">
+                        <textarea class="form__message" name="Message" placeholder="Message"></textarea>
+                        <input class="form__submit" type="submit" value="Send Message">
+                    </form>
+                </div>
+                <div class="map-cont"> <!-- Map Cotainer With Image-->
+                    <a class="map" href="https://www.google.sk/maps/place/Torvet+1,+4600+K%C3%B8ge/@55.4566437,12.1756576,15.7z/data=!4m5!3m4!1s0x4652f05350a21773:0x652ea785470e75a!8m2!3d55.4565547!4d12.1827689?hl=sk" target="_blank">
+                        <figure class="map__pic">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+    </section>
+    <footer class="footer"> <!--Footer Section-->
+        <div class="wrapper">
+            <div class="address"> <!--Address-->
+                <h1 class="h1">
+                    Køge Municipality
+                </h1>
+                <p class="address__txt">
+                    Torvet 1
+                    <br> 4600 Køge
+                    <br> raadhus@koege.dk
+                    <br> CVR no. 29189374
+                    <br> Emergency help
+                </p>
+            </div>
+            <div class="site"> <!--Public Websites-->
+                <h1 class="h1">
+                    Public Websites
+                </h1>
+                <a href="https://www.borger.dk/" target="_blank" class="site__link">
+                    Borger.dk
+                </a>
+                <a href="https://www.skat.dk/" target="_blank" class="site__link">
+                    Skat.dk
+                </a>
+                <a href="https://job.jobnet.dk/CV/frontpage" target="_blank" class="site__link">
+                    Jobnet.dk
+                </a>
+                <a href="https://www.sundhed.dk/" target="_blank" class="site__link">
+                    Sundhed.dk
+                </a>
+            </div>
+            <div class="social"> <!--Social Links-->
+                <a href="#" class="social__link">
+                    <svg class="social__icon">
+                        <use xlink:href="img/sprite.svg#facebook-app-logo">
+                    </svg>
+                </a>
+                <a href="#" class="social__link">
+                    <svg class="social__icon">
+                        <use xlink:href="img/sprite.svg#linkedin-logo">
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
